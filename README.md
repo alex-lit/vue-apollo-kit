@@ -1,6 +1,6 @@
 # Vue Apollo Kit
 
-Пример плагина для nuxt.js (typescript)
+Пример плагина nuxt.js (typescript)
 
 ```ts
 import {
