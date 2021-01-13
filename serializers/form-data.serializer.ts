@@ -10,7 +10,7 @@ export function formDataSerializer(data: any, headers: Headers) {
   Object.keys(data).forEach((key) => {
     if (!['undefined', null].includes(data[key])) {
       if (Array.isArray(data[key])) {
-        data[key].forEach((element) => {
+        data[key].forEach((element: any) => {
           formData.append(key, element);
         });
       } else {
