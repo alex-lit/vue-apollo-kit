@@ -1,5 +1,4 @@
 export { buildAxiosFetch } from '@lifeomic/axios-fetch';
-export { Plugin } from '@nuxt/types';
 export { InMemoryCache } from 'apollo-cache-inmemory';
 export { ApolloClient } from 'apollo-client';
 export { ApolloLink } from 'apollo-link';

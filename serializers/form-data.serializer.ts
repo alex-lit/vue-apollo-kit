@@ -7,6 +7,9 @@
 export function formDataSerializer(data: any, headers: Headers) {
   const formData = new FormData();
 
+  /**
+   * Преобразование типа данных: Object -> FormData
+   */
   Object.keys(data).forEach((key) => {
     if (!['undefined', null].includes(data[key])) {
       if (Array.isArray(data[key])) {
@@ -19,8 +22,11 @@ export function formDataSerializer(data: any, headers: Headers) {
     }
   });
 
-  // [FIX] При создании FormData по неясной причине в него добавилось поле
-  // id:undefined, поэтому заменяем его на значение из данных или удаляем вовсе
+  /**
+   * При создании FormData по неясной причине в него добавилось поле
+   * `id:undefined`, поэтому заменяем его на значение из данных или удаляем
+   * вовсе
+   */
   if (data.id || data.id === 0) {
     formData.set('id', data.id);
   } else {
