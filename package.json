@@ -1,0 +1,53 @@
+{
+  "name": "@alexlit/apollo-vue-kit",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Apollo Vue Kit",
+  "keywords": [
+    "apollo",
+    "vue"
+  ],
+  "homepage": "https://github.com/alex-lit/apollo-vue-kit#readme",
+  "bugs": {
+    "url": "https://github.com/alex-lit/apollo-vue-kit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-lit/apollo-vue-kit.git"
+  },
+  "license": "MIT",
+  "author": "Alexey Litovchenko",
+  "maintainers": [
+    "Alexey Litovchenko <alex.lit@outlook.com> (https://alexlit.gitlab.io)"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "serializers"
+  ],
+  "scripts": {
+    "lint": "./node_modules/@alexlit/lint-kit/scripts/lint.sh",
+    "lint:eslint": "./node_modules/@alexlit/lint-kit/scripts/lint.eslint.sh",
+    "lint:markdownlint": "./node_modules/@alexlit/lint-kit/scripts/lint.markdownlint.sh",
+    "lint:stylelint": "./node_modules/@alexlit/lint-kit/scripts/lint.stylelint.sh",
+    "publish": "./node_modules/@alexlit/lint-kit/scripts/publish.sh",
+    "semver": "./node_modules/@alexlit/lint-kit/scripts/semver.sh",
+    "up": "./node_modules/@alexlit/lint-kit/scripts/up.sh",
+    "version": "./node_modules/@alexlit/lint-kit/scripts/version.sh"
+  },
+  "dependencies": {
+    "@lifeomic/axios-fetch": "^1.5.1",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link": "^1.2.14",
+    "apollo-link-error": "^1.1.13",
+    "apollo-link-rest": "^0.7.3",
+    "graphql": "^15.4.0",
+    "graphql-anywhere": "^4.2.7",
+    "graphql-tag": "^2.11.0",
+    "vue-apollo": "^3.0.5"
+  },
+  "devDependencies": {
+    "@alexlit/lint-kit": "^0.6.0"
+  }
+}
