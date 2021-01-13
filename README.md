@@ -3,19 +3,16 @@
 Пример плагина nuxt.js (typescript)
 
 ```ts
-import {
-  ApolloClient,
-  ApolloLink,
-  buildAxiosFetch,
-  InMemoryCache,
-  onError,
-  RestLink,
-  VueApollo,
-} from '@alexlit/apollo-vue-kit';
+import { formDataSerializer } from '@alexlit/apollo-vue-kit/serializers';
+import { buildAxiosFetch } from '@lifeomic/axios-fetch';
 import { Plugin } from '@nuxt/types';
+import { InMemoryCache } from 'apollo-cache-inmemory';
+import { ApolloClient } from 'apollo-client';
+import { ApolloLink } from 'apollo-link';
+import { onError } from 'apollo-link-error';
+import { RestLink } from 'apollo-link-rest';
 import Vue from 'vue';
-
-import { formDataSerializer } from './serializers';
+import VueApollo from 'vue-apollo';
 
 const API_HOST = 'https://example.com';
 
