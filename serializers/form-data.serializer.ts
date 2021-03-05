@@ -11,6 +11,7 @@ export function formDataSerializer(data: any, headers: Headers) {
    * Преобразование типа данных: Object -> FormData
    */
   Object.keys(data).forEach((key) => {
+    // eslint-disable-next-line unicorn/no-null
     if (!['undefined', null].includes(data[key])) {
       if (Array.isArray(data[key])) {
         data[key].forEach((element: any) => {

@@ -42,12 +42,12 @@
     "apollo-link": "^1.2.14",
     "apollo-link-error": "^1.1.13",
     "apollo-link-rest": "^0.7.3",
-    "graphql": "^15.4.0",
+    "graphql": "^15.5.0",
     "graphql-anywhere": "^4.2.7",
-    "graphql-tag": "^2.11.0",
-    "vue-apollo": "^3.0.5"
+    "graphql-tag": "^2.12.1",
+    "vue-apollo": "^3.0.7"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "^0.9.1"
+    "@alexlit/lint-kit": "^1.6.1"
   }
 }
