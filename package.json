@@ -20,9 +20,9 @@
   "maintainers": [
     "Alexey Litovchenko <alex.lit@outlook.com> (https://alexlit.gitlab.io)"
   ],
-  "main": "index.js",
+  "main": "index.ts",
   "files": [
-    "index.js",
+    "index.ts",
     "serializers"
   ],
   "scripts": {
@@ -48,6 +48,6 @@
     "vue-apollo": "^3.0.7"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "^1.6.1"
+    "@alexlit/lint-kit": "^2.9.1"
   }
 }
