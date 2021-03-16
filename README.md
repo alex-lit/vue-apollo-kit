@@ -1,18 +1,20 @@
 # Vue Apollo Kit
 
-Пример плагина nuxt.js (typescript)
+Sample nuxt.js plugin (TypeScript + Apollo REST link)
 
 ```ts
+import {
+  ApolloClient,
+  ApolloLink,
+  buildAxiosFetch,
+  InMemoryCache,
+  onError,
+  RestLink,
+  VueApollo,
+} from '@alexlit/apollo-vue-kit';
 import { formDataSerializer } from '@alexlit/apollo-vue-kit/serializers';
-import { buildAxiosFetch } from '@lifeomic/axios-fetch';
-import { Plugin } from '@nuxt/types';
-import { InMemoryCache } from 'apollo-cache-inmemory';
-import { ApolloClient } from 'apollo-client';
-import { ApolloLink } from 'apollo-link';
-import { onError } from 'apollo-link-error';
-import { RestLink } from 'apollo-link-rest';
+import type { Plugin } from '@nuxt/types';
 import Vue from 'vue';
-import VueApollo from 'vue-apollo';
 
 const API_HOST = 'https://example.com';
 
@@ -62,7 +64,7 @@ const vueApollo: Plugin = ({ app, $axios }) => {
     uri: API_HOST,
 
     /**
-     * Использование axios-плагина вместо ванильного fetch
+     * Use axios plugin instead of vanilla fetch
      *
      * @param uri
      * @param options
@@ -70,8 +72,7 @@ const vueApollo: Plugin = ({ app, $axios }) => {
     customFetch: (uri, options) => {
       return buildAxiosFetch($axios, (config) => {
         /**
-         * Заголовок сформированный apollo, например при использовании
-         * параметра 'formDataSerializer'
+         * Apollo formed header, for example, when using the 'formDataSerializer' parameter
          */
         const apolloHeaders: Record<string, string> = Object.fromEntries(
           (options.headers as any).entries(),
@@ -82,6 +83,7 @@ const vueApollo: Plugin = ({ app, $axios }) => {
         return config;
       })(uri, options);
     },
+
     bodySerializers: {
       formData: formDataSerializer,
     },
