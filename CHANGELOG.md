@@ -1,3 +1,10 @@
+# [0.4.0](https://github.com/alex-lit/apollo-vue-kit/compare/v0.3.1...v0.4.0) (2021-03-18)
+
+### Features
+
+- add http-status-codes package
+  ([91741f3](https://github.com/alex-lit/apollo-vue-kit/commit/91741f3da50faa0fd3b9dbc53c14d30f80106d70))
+
 ## [0.3.1](https://github.com/alex-lit/apollo-vue-kit/compare/v0.3.0...v0.3.1) (2021-03-18)
 
 # [0.3.0](https://github.com/alex-lit/apollo-vue-kit/compare/v0.2.0...v0.3.0) (2021-03-16)
