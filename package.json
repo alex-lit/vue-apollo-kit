@@ -45,6 +45,7 @@
     "graphql": "^15.5.0",
     "graphql-anywhere": "^4.2.7",
     "graphql-tag": "^2.12.1",
+    "http-status-codes": "^2.1.4",
     "vue-apollo": "^3.0.7"
   },
   "devDependencies": {
