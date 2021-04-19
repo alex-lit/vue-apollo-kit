@@ -28,6 +28,7 @@
   "scripts": {
     "lint": "./node_modules/@alexlit/lint-kit/scripts/lint.sh",
     "lint:eslint": "./node_modules/@alexlit/lint-kit/scripts/lint.eslint.sh",
+    "lint:htmllint": "./node_modules/@alexlit/lint-kit/scripts/lint.htmllint.sh",
     "lint:markdownlint": "./node_modules/@alexlit/lint-kit/scripts/lint.markdownlint.sh",
     "lint:stylelint": "./node_modules/@alexlit/lint-kit/scripts/lint.stylelint.sh",
     "publish": "./node_modules/@alexlit/lint-kit/scripts/publish.sh",
@@ -36,7 +37,7 @@
     "version": "./node_modules/@alexlit/lint-kit/scripts/version.sh"
   },
   "dependencies": {
-    "@lifeomic/axios-fetch": "^1.5.2",
+    "@lifeomic/axios-fetch": "^2.0.0",
     "apollo-cache-inmemory": "^1.6.6",
     "apollo-client": "^2.6.10",
     "apollo-link": "^1.2.14",
@@ -49,6 +50,6 @@
     "vue-apollo": "^3.0.7"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "^3.1.0"
+    "@alexlit/lint-kit": "^5.5.0"
   }
 }
