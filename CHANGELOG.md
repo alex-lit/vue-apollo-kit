@@ -1,3 +1,15 @@
+## 1.0.3 (2021-07-01)
+
+### Bug Fixes
+
+- gql export
+  ([40175b4](https://github.com/alex-lit/apollo-vue-kit/commit/40175b4ffd89c58ac552b6629099052c8321d446))
+
+### Features
+
+- add http-status-codes package
+  ([91741f3](https://github.com/alex-lit/apollo-vue-kit/commit/91741f3da50faa0fd3b9dbc53c14d30f80106d70))
+
 ## [1.0.2](https://github.com/alex-lit/apollo-vue-kit/compare/v1.0.1...v1.0.2) (2021-06-21)
 
 ## [1.0.1](https://github.com/alex-lit/apollo-vue-kit/compare/v1.0.0...v1.0.1) (2021-04-30)
