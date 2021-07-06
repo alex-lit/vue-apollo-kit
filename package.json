@@ -51,6 +51,6 @@
     "vue-apollo": "^3.0.7"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "^21.0.2"
+    "@alexlit/lint-kit": "^21.3.0"
   }
 }
