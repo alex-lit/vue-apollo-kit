@@ -1,3 +1,17 @@
+# 1.1.0 (2021-10-01)
+
+### Bug Fixes
+
+- gql export
+  ([40175b4](https://github.com/alex-lit/apollo-vue-kit/commit/40175b4ffd89c58ac552b6629099052c8321d446))
+
+### Features
+
+- add http-status-codes package
+  ([91741f3](https://github.com/alex-lit/apollo-vue-kit/commit/91741f3da50faa0fd3b9dbc53c14d30f80106d70))
+- add new response transformer
+  ([b87b52b](https://github.com/alex-lit/apollo-vue-kit/commit/b87b52b7c65794607b6b8a7b58c729e9d2ee2c2c))
+
 ## 1.0.3 (2021-07-01)
 
 ### Bug Fixes
