@@ -23,7 +23,8 @@
   "main": "index.ts",
   "files": [
     "index.ts",
-    "serializers"
+    "serializers",
+    "response-transformers"
   ],
   "scripts": {
     "lint": "./node_modules/@alexlit/lint-kit/scripts/lint.sh",
