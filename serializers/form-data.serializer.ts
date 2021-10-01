@@ -25,8 +25,7 @@ export function formDataSerializer(data: any, headers: Headers) {
 
   /**
    * При создании FormData по неясной причине в него добавилось поле
-   * `id:undefined`, поэтому заменяем его на значение из данных или удаляем
-   * вовсе
+   * `id:undefined`, поэтому заменяем его на значение из данных или удаляем вовсе
    */
   if (data.id || data.id === 0) {
     formData.set('id', data.id);
