@@ -12,7 +12,7 @@ import {
   RestLink,
   VueApollo,
 } from '@alexlit/apollo-vue-kit';
-import { formDataSerializer } from '@alexlit/apollo-vue-kit/serializers';
+import { formDataBodySerializer } from '@alexlit/apollo-vue-kit/body-serializers';
 import type { Plugin } from '@nuxt/types';
 import Vue from 'vue';
 
@@ -72,7 +72,7 @@ const vueApollo: Plugin = ({ app, $axios }) => {
     customFetch: (uri, options) => {
       return buildAxiosFetch($axios, (config) => {
         /**
-         * Apollo formed header, for example, when using the 'formDataSerializer' parameter
+         * Apollo formed header, for example, when using the 'bodySerializers' parameter
          */
         const apolloHeaders: Record<string, string> = Object.fromEntries(
           (options.headers as any).entries(),
@@ -85,7 +85,7 @@ const vueApollo: Plugin = ({ app, $axios }) => {
     },
 
     bodySerializers: {
-      formData: formDataSerializer,
+      formData: formDataBodySerializer,
     },
   });
 

@@ -4,7 +4,7 @@
  * @param data Исходные данные
  * @param headers Заголовок
  */
-export function formDataSerializer(data: any, headers: Headers) {
+export function formDataBodySerializer(data: any, headers: Headers) {
   const formData = new FormData();
 
   /**
