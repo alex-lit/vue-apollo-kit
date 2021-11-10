@@ -23,7 +23,7 @@
   "main": "index.ts",
   "files": [
     "index.ts",
-    "serializers",
+    "body-serializers",
     "response-transformers"
   ],
   "scripts": {
