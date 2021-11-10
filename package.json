@@ -7,13 +7,13 @@
     "apollo",
     "vue"
   ],
-  "homepage": "https://github.com/alex-lit/apollo-vue-kit#readme",
+  "homepage": "https://github.com/alex-lit/vue-apollo-kit#readme",
   "bugs": {
-    "url": "https://github.com/alex-lit/apollo-vue-kit/issues"
+    "url": "https://github.com/alex-lit/vue-apollo-kit/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alex-lit/apollo-vue-kit.git"
+    "url": "git+https://github.com/alex-lit/vue-apollo-kit.git"
   },
   "license": "MIT",
   "author": "Alexey Litovchenko",
