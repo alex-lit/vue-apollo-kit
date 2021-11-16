@@ -39,7 +39,7 @@
     "version": "./node_modules/@alexlit/lint-kit/scripts/version.sh"
   },
   "dependencies": {
-    "@lifeomic/axios-fetch": "^2.0.5",
+    "@lifeomic/axios-fetch": "^3.0.0",
     "apollo-cache-inmemory": "^1.6.6",
     "apollo-client": "^2.6.10",
     "apollo-link": "^1.2.14",
@@ -52,6 +52,6 @@
     "vue-apollo": "^3.0.8"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "^44.0.0"
+    "@alexlit/lint-kit": "^46.0.0"
   }
 }
