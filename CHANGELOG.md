@@ -1,3 +1,10 @@
+## [3.1.1](https://github.com/alex-lit/vue-apollo-kit/compare/v3.1.0...v3.1.1) (2021-11-19)
+
+### Bug Fixes
+
+- downgrade vue-apollo package
+  ([a4d264c](https://github.com/alex-lit/vue-apollo-kit/commit/a4d264c6d2a9e36e699083ace27292e5099d7463))
+
 # [3.1.0](https://github.com/alex-lit/vue-apollo-kit/compare/v3.0.0...v3.1.0) (2021-11-19)
 
 # [3.0.0](https://github.com/alex-lit/vue-apollo-kit/compare/v2.0.1...v3.0.0) (2021-11-16)
