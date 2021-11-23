@@ -11,8 +11,8 @@ import {
   onError,
   RestLink,
   VueApollo,
-} from '@alexlit/apollo-vue-kit';
-import { formDataBodySerializer } from '@alexlit/apollo-vue-kit/body-serializers';
+} from '@alexlit/vue-apollo-kit';
+import { formDataBodySerializer } from '@alexlit/vue-apollo-kit/body-serializers';
 import type { Plugin } from '@nuxt/types';
 import Vue from 'vue';
 
