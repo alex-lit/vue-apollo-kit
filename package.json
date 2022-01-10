@@ -44,14 +44,14 @@
     "apollo-client": "^2.6.10",
     "apollo-link": "^1.2.14",
     "apollo-link-error": "^1.1.13",
-    "apollo-link-rest": "^0.7.3",
-    "graphql": "^16.1.0",
+    "apollo-link-rest": "^0.8.0",
+    "graphql": "^16.2.0",
     "graphql-anywhere": "^4.2.7",
     "graphql-tag": "^2.12.6",
-    "http-status-codes": "^2.1.4",
+    "http-status-codes": "^2.2.0",
     "vue-apollo": "^3.1.0"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "^48.1.1"
+    "@alexlit/lint-kit": "^54.0.1"
   }
 }
