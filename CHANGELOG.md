@@ -1,3 +1,5 @@
+## [3.5.1](https://github.com/alex-lit/vue-apollo-kit/compare/v3.5.0...v3.5.1) (2022-02-16)
+
 # [3.5.0](https://github.com/alex-lit/vue-apollo-kit/compare/v3.4.0...v3.5.0) (2022-02-11)
 
 # [3.4.0](https://github.com/alex-lit/vue-apollo-kit/compare/v3.3.1...v3.4.0) (2022-01-26)
