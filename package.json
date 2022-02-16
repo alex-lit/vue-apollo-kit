@@ -45,7 +45,7 @@
     "apollo-client": "^2.6.10",
     "apollo-link": "^1.2.14",
     "apollo-link-error": "^1.1.13",
-    "apollo-link-rest": "^0.8.0",
+    "apollo-link-rest": "^0.7.3",
     "graphql": "^16.3.0",
     "graphql-anywhere": "^4.2.7",
     "graphql-tag": "^2.12.6",
@@ -53,6 +53,6 @@
     "vue-apollo": "^3.1.0"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "^56.11.0"
+    "@alexlit/lint-kit": "^57.3.0"
   }
 }
